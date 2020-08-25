@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background: #b7b7a4;
+    color: #000000;
+}
+
+/****** GRID *****/
+.full-width {
+    width: 100%;
+    margin: auto;
+    padding: 70px 0;
+    overflow: auto;
+    text-align: center;
+}
+
+.half-width {
+    width: 800px;
+    float: left;
+}
+
+.third-width {
+    width: 600px;
+    float: right;
+}
+
+#home-page {
+    height: 600px;
+    text-align: left;
+    background: url('../img/mainhead-img.jpg');
+    background-position: bottom;
+    padding-top: 80px;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    text-align:left;
+    padding: 65px 25px; 65px 25px;
+    font-size: 60px;
+    font-family: 'Spectral', serif;
+
+}
+
+header span {
+    color: #cb997e;
+}
+
+nav {
+    position: fixed;
+    opacity: 0.9;
+    background-color: #fff1e6;
+    text-align: right;
+    top: 0;
+    width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #fff1e6;
+  background-color: #fff1e6;
+}
+
+nav li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddbea9;
+}
+
+li a.active {
+  color: white;
+  background-color: #ddbea9;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000000;
+    padding-right: 60px;
+}
+
+h3 {
+    font-family: 'Spectral', serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.intro {
+    width: 800px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+#about {
+    width: 100%;
+}
+
+#headshot {
+
+    width: 40%;
+    float: left;
+    margin: 15px;
+    border: 12px solid #ddbea9;
+}
+
+
+#about p {
+    font-size: 18px;
+    line-height: inherit;
+    padding-top: 40px;
+    width: 90%;
+    text-align: justify;
+
+}
+
+#work {
+    background-color: #fff1e6;
+}
+
+#work img {
+    width: 60%;
+
+}
+
+#contact h4 {
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+}
+
+#contact img {
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+}
+
+#contact {
+    background-color: #b7b7a4;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
